@@ -9,7 +9,7 @@
   <body>
     <span id="code">|{"actual_version": "v2.0.0", "day": "28/03/2024", "status": "success", "emotion": "happy"}|</span>
     <script>
-      const actualDate = newDate()
+      const actualDate = new Date()
       const code = document.getElementById("code")
       code.innerHTML = `|{"actual_version": "v2.0.0", "day": ${actualDate.getFullYear()}, "status": "success", "emotion": "happy"}|`
     </script>
